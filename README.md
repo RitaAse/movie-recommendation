@@ -7,13 +7,19 @@ A simple and interactive movie recommendation system that suggests similar movie
 A movie recommendation system built with machine learning and Flask, featuring an interactive web interface deployed in the cloud where users can discover personalized movie recommendations.
 - Powered by **content-based filtering** (TF-IDF + cosine similarity)  
 
+## Screenshots
+![Homepage Screenshot](static/movie-search.png)
+![Recommended Screenshot](static/movie-recommend.png)
+![Casts Screenshot](static/movie-casts.png)
+
 ## Features ✨
 
 🎬 Movie Recommendations - Search for a movie and get similar movie suggestions  
 👥 Cast Information - View detailed cast info in collapsible sections  
 💻 Web Interface - Interactive and responsive Flask-based interface    
 ⚡ Prepared data usage - Fetch recommendations from the pre-processed dataset  
-📊 Ratings Overview - See movie ratings, vote count, release date, runtime, and status 
+📊 Ratings Overview - See movie ratings, vote count, release date, runtime, and status
+
 🔒 API Key Management - Store your TMDB API key safely in a `.env` file
 
 ## 🏗️ Architecture
@@ -34,7 +40,7 @@ Recommendation System Pipeline:
 - **Frontend:** HTML, CSS, Bootstrap, JS  
 - **Machine Learning:** Sentiment Analysis for reviews (soon-to-be added feature)  
 - **Data Storage:** CSV files, Pickle for models (.pkl)
-- 
+  
 ## 📂 Project Structure
 <pre> ```
 Netflix-Movie-Recommender/
@@ -100,5 +106,4 @@ To enable a secure API key
 ### 3. Open your browser and go to
 http://127.0.0.1:5000
 
-## Screenshots
-![Homepage Screenshot](static/screenshot.png)
+
