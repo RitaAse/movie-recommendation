@@ -34,6 +34,11 @@ Recommendation System Pipeline:
 👥 Cast & Details → Collapsible sections to show cast, roles, and profiles  
 🌐 Web Interface → Flask app displays movies, ratings, and recommendations interactively  
 
+
+## Dataset
+The dataset used in this project is publicly available and has been preprocessed for recommendation purposes.
+<pre> Final preprocessed dataset: main_data.csv </pre>
+
 ## 🛠️ Technology Stack
 - **Backend:** Python, Flask, Pandas, NumPy, Scikit-learn  
 - **Recommendation Engine:** Content-based filtering using CountVectorizer, Cosine Similarity  
